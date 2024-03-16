@@ -1,7 +1,7 @@
 import React from "react";
 import TextSpan from "./TextSpan";
 import { motion } from "framer-motion";
-// import SkillsCloud from "./SkillsCloud";
+import SkillsCloud from "./SkillsCloud";
 
 const Skills = () => {
   const skilltext = "Technical Skills".split("");
@@ -42,7 +42,7 @@ const Skills = () => {
       </div>
 
       <div className="flex items-center justify-center mx-auto w-1/2">
-        {/* <SkillsCloud /> */}
+        <SkillsCloud />
       </div>
     </motion.section>
   );
