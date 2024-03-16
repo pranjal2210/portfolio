@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
           initial={{ y: "30px" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.3 }}
-          className="text-[#00ff7f] opacity-80 absolute bottom-1 left-[100px] text-lg font-tags-font bottom-tags"
+          className="text-[#00ff7f] opacity-80 absolute bottom-0 left-[100px] text-lg font-tags-font bottom-tags"
         >
           <span className="ml-8">&lt;/body&gt;</span>
           <br />
